@@ -1,0 +1,40 @@
+.products {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.products__title {
+    color: #131313;
+text-align: center;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.2px;
+text-transform: uppercase;
+}
+.products__subtitle {
+    color: #131313;
+text-align: center;
+font-family: "Seymour One";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.16px;
+text-transform: uppercase;
+}
+.products__list {
+}
+.products__item {
+}
+.products__item-img {
+}
+.products__item-title {
+}
+.products__item-text {
+}
+.products__item-svg {
+}
