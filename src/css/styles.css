@@ -11,6 +11,11 @@
 
 /* LAYOUT */
 @import url("./layout/header.css");
+@import url("./layout/hero.css");
+@import url("./layout/products.css");
+@import url("./layout/traditions.css");
+@import url("./layout/comment.css");
+@import url("./layout/footer.css");
 
 /* COMPONENTS */
 @import url("./components/buy-now-modal.css");
