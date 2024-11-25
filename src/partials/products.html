@@ -3,13 +3,18 @@
     <h1 class="products__subtitle">products</h1>
     <ul class="products__list">
         <li class="products__item">
-            <img src="" alt="" class="products__item-img">
+            <picture class="products__item-photo">
+                <source srcset="/img/products/ice-cream.png 1x,
+                /img/products/ice-cream@2x.png 2x,">
+             <img src="#" alt="" class="products__item-img">
+            </picture>
+            
             <h3 class="products__item-title">ice cream</h3>
             <p class="products__item-text">Soft ice cream with a delicate taste. Made with milk, cream, sugar and natural stabilizer
 
             </p>
             <svg class="products__item-svg">
-                <use href="../img/symbol-defs.svg#icon-arrow"></use>
+                <use href="/img/products/symbol-defs.svg#icon-arrow"></use>
             </svg>
         </li>
         <li class="products__item">
@@ -19,7 +24,7 @@
 
             </p>
             <svg class="products__item-svg">
-                <use href="../img/symbol-defs.svg#icon-arrow"></use>
+                <use href="/img/products/symbol-defs.svg#icon-arrow"></use>
             </svg>
         </li>
         <li class="products__item">
@@ -29,7 +34,7 @@
 
             </p>
             <svg class="products__item-svg">
-                <use href="../img/symbol-defs.svg#icon-arrow"></use>
+                <use href="/img/products/symbol-defs.svg#icon-arrow"></use>
             </svg>
         </li>
     </ul>

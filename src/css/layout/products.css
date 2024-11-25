@@ -6,35 +6,58 @@
 }
 .products__title {
     color: #131313;
-text-align: center;
-font-family: Montserrat;
-font-size: 30px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-letter-spacing: 1.2px;
-text-transform: uppercase;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
 }
 .products__subtitle {
     color: #131313;
-text-align: center;
-font-family: "Seymour One";
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 2.16px;
-text-transform: uppercase;
+    text-align: center;
+    font-family: "Seymour One";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
 }
 .products__list {
 }
 .products__item {
 }
+
+.products__item-photo{
+}
+
 .products__item-img {
 }
 .products__item-title {
+    color: #131313;
+text-align: center;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.8px;
+text-transform: uppercase;
 }
 .products__item-text {
+    color: #131313;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 176%; /* 24.64px */
+letter-spacing: 0.56px;
 }
 .products__item-svg {
+    width: 40px;
+    height: 16px;
+    flex-shrink: 0;
 }
