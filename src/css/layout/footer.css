@@ -14,6 +14,9 @@ line-height: 120%;
 letter-spacing: 0.48px;
 border-radius: 4px;
 background-color: #F8D24E;
+width: 130px;
+height: 22px;
+flex-shrink: 0;
 }
 .location {
     color: #131313;
@@ -30,18 +33,54 @@ line-height: 183%;
 letter-spacing: 0.48px;
 }
 .days {
+    color: #131313;
+font-size: 12px;
+font-weight: 500;
+line-height: 186%;
 }
 .time {
+    color: #ABABAB;
+font-size: 12px;
+font-weight: 500;
+line-height: 186%;
 }
 .footer__link {
+    color: #131313;
+font-size: 12px;
+font-weight: 500;
+line-height: 160%;
 }
 .our__location {
+    width: 196px;
+height: 42px;
+background-color: #F8D24E;
+border-radius: 4px;
 }
 .franchise {
+    color: #000;
+text-align: center;
+font-size: 14px;
+font-weight: 600;
+line-height: 18px; /* 128.571% */
 }
 .homemade {
+    width: 232px;
+height: 42px;
+flex-shrink: 0;
+color: #FCFCFC;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
 }
 .passion {
+    color: #FCFCFC;
+font-size: 34px;
+font-weight: 700;
+letter-spacing: 1.36px;
+text-transform: uppercase;
+width: 200px;
+height: 76px;
+flex-shrink: 0;
 }
 .footer__icons-list {
 }
@@ -52,8 +91,22 @@ letter-spacing: 0.48px;
 .svg__icons {
 }
 .contact {
+    color: #131313;
+text-align: right;
+font-size: 12px;
+font-weight: 700;
+line-height: 186%;
 }
 .footer__colored {
+    color: #FCFCFC;
+font-size: 12px;
+font-weight: 700;
+line-height: 186%;
 }
 .reserved {
+    color: #7A7A7A;
+text-align: center;
+font-size: 14px;
+font-weight: 700;
+line-height: 152%;
 }
