@@ -1,40 +1,124 @@
 .products {
+    background-image: url('/img/products/products__background.png');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left: 16px;
-    padding-right: 16px;
+}
+
+.products__subtitle {
+    color: #131313;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    
 }
 .products__title {
+    margin-top: 12px;
+    margin-bottom: 24px;
+    color: #131313;
+    text-align: center;
+    font-family: "Seymour One";
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 148px;
+}
+.products__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 168px;
+}
+.products__item {
+    position: relative;
+    width: 280px;
+    height: 420px;
+    border-radius: 24px;
+}
+.products__item:nth-child(1) {
+    background-color: #AEC6A5;
+}
+.products__item:nth-child(2) {
+    background-color: #EFD478;
+}
+.products__item:nth-child(3) {
+    background-color: #D6936D;;
+}
+
+.products__item-img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.products__item:nth-child(1) > .products__item-img {
+    filter: drop-shadow(0px 5.342px 20.033px rgba(10, 136, 23, 0.25));
+}
+.products__item:nth-child(2) > .products__item-img{
+filter: drop-shadow(0px 5.404px 20.265px rgba(153, 114, 23, 0.25));
+}
+.products__item:nth-child(3) > .products__item-img {
+    filter: drop-shadow(0px 5.413px 20.3px rgba(0, 0, 0, 0.25));
+}
+
+.products__item-title {
+    margin-top: 123px;
     color: #131313;
 text-align: center;
 font-family: Montserrat;
-font-size: 30px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-letter-spacing: 1.2px;
+font-size: 20px;
+font-weight: 700;
+letter-spacing: 0.8px;
 text-transform: uppercase;
-}
-.products__subtitle {
-    color: #131313;
-text-align: center;
-font-family: "Seymour One";
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 2.16px;
-text-transform: uppercase;
-}
-.products__list {
-}
-.products__item {
-}
-.products__item-img {
-}
-.products__item-title {
 }
 .products__item-text {
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;   
+    color: #131313;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 176%; /* 24.64px */
+letter-spacing: 0.56px;
+
 }
 .products__item-svg {
+    position: absolute;
+    width: 40px;
+    height: 16px;
+    bottom: 16px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+/* mobile 480px */
+
+@media screen and (min-width: 480px) {
+ 
+.products__item {
+    width: 320px;
+    height: 428px;
 }
+
+.products__item-img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.products__item-text {
+padding-left: 60px;
+padding-right: 60px;
+}
+

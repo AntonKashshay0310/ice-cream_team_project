@@ -1,0 +1,34 @@
+.header {
+    background-color: #84A178;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+}
+.header__logo__ice {
+}
+.header__nav {
+}
+.header__list {
+}
+.header__item {
+    color: #FCFCFC;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.header__burger__button {
+}
+.header__button__icon {
+}
+.header__button {
+    width: 152px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F8D24E;
+}
