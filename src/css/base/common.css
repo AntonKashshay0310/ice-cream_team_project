@@ -1,8 +1,13 @@
-.container {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 auto;
-    outline: 1px solid red;
-    min-width: 320px;
-    max-width: 420px;
-}
+:root {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  
+    --animation: 350ms linear;
+  }
+  
