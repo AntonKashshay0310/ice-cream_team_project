@@ -1,5 +1,4 @@
 .footer {
-<<<<<<< Updated upstream
   background-color: #84a178;
 }
 
@@ -141,7 +140,6 @@
   width: 200px;
   height: 76px;
   flex-shrink: 0;
-=======
 }
 
 .footer__list {
@@ -185,7 +183,6 @@ letter-spacing: 0.48px;
 .homemade {
 }
 .passion {
->>>>>>> Stashed changes
 }
 .footer__icons-list {
 }
@@ -196,7 +193,6 @@ letter-spacing: 0.48px;
 .svg__icons {
 }
 .contact {
-<<<<<<< Updated upstream
   color: #131313;
   text-align: right;
   font-size: 12px;
@@ -223,10 +219,8 @@ letter-spacing: 0.48px;
   height: 42px;
   flex-shrink: 0;
 }
-=======
-}
+
 .footer__colored {
 }
 .reserved {
 }
->>>>>>> Stashed changes
