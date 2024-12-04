@@ -1,0 +1,126 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: #84a178;
+  padding-top: 12px;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo__ice {
+  width: 40px;
+  height: 37px;
+}
+
+.header__nav {
+  display: none;
+}
+
+.header__burger__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+}
+
+.header__button__icon {
+  fill: #ffffff;
+  width: 32px;
+  height: 32px;
+}
+
+.header__button {
+  display: none;
+}
+
+/* mobile */
+@media screen and (min-width: 480px) {
+  .header {
+    padding-top: 14px;
+  }
+
+  .header__logo__ice {
+    width: 48px;
+    height: 44px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 20px;
+  }
+
+  .header__button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px; 
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #f8d24e;
+    padding: 12px 36px;
+    transition: all;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header {
+    background-color: #84a178;
+    padding-top: 8px;
+    padding-bottom: 45px;
+  }
+  /* .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+    .header__logo {
+        justify-content: center;
+        align-items: center;
+    } */
+  .header__logo__ice {
+    width: 27px;
+    height: 55px;
+    flex-shrink: 0;
+  }
+  .header__nav {
+    padding-right: 28px;
+  }
+  .header__list {
+    align-items: center;
+    gap: 28px;
+  }
+  .header__link {
+    color: #fcfcfc;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .header__burger__button {
+  }
+  .header__button__icon {
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+  }
+  .header__button {
+    width: 152px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #f8d24e;
+  }
+}
