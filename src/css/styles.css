@@ -8,6 +8,7 @@
 /* BASE */
 @import url('./base/reset.css');
 @import url("./base/common.css");
+@import url("./base/container.css");
 
 /* LAYOUT */
 @import url("./layout/header.css");
