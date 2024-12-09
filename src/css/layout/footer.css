@@ -142,10 +142,6 @@
   flex-shrink: 0;
 }
 
-.footer__list {
-}
-.footer__item {
-}
 .title {
     color: #131313;
 text-align: center;
@@ -170,20 +166,8 @@ font-weight: 500;
 line-height: 183%;
 letter-spacing: 0.48px;
 }
-.days {
-}
-.time {
-}
-.footer__link {
-}
-.our__location {
-}
-.franchise {
-}
-.homemade {
-}
-.passion {
-}
+
+
 .footer__icons-list {
 }
 .footer__icons-item {
@@ -220,7 +204,3 @@ letter-spacing: 0.48px;
   flex-shrink: 0;
 }
 
-.footer__colored {
-}
-.reserved {
-}
