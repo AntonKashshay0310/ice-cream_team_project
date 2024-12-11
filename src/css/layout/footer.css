@@ -1,5 +1,12 @@
 .footer {
+  height: 1570px;
   background-color: #84a178;
+}
+
+.footer .container {
+  position: relative;
+  width: 100%;
+ top: -353px;
 }
 
 .footer__card {
