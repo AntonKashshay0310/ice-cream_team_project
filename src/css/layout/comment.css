@@ -1,0 +1,27 @@
+.products {
+    background-image: url('/img/products/products_mobile.png');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .products {
+        background-image: url('/img/products/products_mobile@2x.png');
+    }
+}
+.container {
+}
+.comment__list {
+}
+.comment__img {
+}
+.comment__img-avatar {
+}
+.comment__text {
+}
