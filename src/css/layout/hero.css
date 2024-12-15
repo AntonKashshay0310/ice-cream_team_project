@@ -50,10 +50,6 @@
   font-weight: 600;
   text-decoration-line: underline;
   text-decoration-style: solid;
-  text-decoration-skip-ink: none;
-  text-decoration-thickness: auto;
-  text-underline-offset: auto;
-  text-underline-position: from-font;
 }
 
 .hero__content-thumb {
@@ -103,11 +99,17 @@
   }
 
   .hero__title {
-    font-size: 38px;
-    margin-bottom: 24px;
+    width: 247px;
+    height: 97px;
+    flex-shrink: 0;
+    color: #FCFCFC;
+font-family: "Seymour One", sans-serif;
+font-size: 26px;
+font-weight: 400;
+letter-spacing: 1.04px;
+text-transform: uppercase;
   }
-  .hero__title--sized {
-  }
+
   .hero__links-thumb {
   }
   .hero__button {
@@ -121,13 +123,29 @@
   .hero__slogan__thumb {
   }
   .hero__text {
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 140%; /* 16.8px */
   }
   .hero__content-link {
   }
   .hero__content-link-icon {
   }
   .hero__statistics-thumb {
-  }
+    width: 36px;
+height: 34px;
+flex-shrink: 0;
+width: 46px;
+height: 10px;
+flex-shrink: 0;
+color: #FCFCFC;
+text-align: right;
+font-family: "Montserrat", sans-serif;
+font-size: 8px;
+font-weight: 400;
+}
   .hero__statistics-number {
   }
   .hero__statistics-text {
