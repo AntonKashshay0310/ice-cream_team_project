@@ -30,10 +30,16 @@
   background-color: transparent;
 }
 
-.header__button__icon {
-  fill: #ffffff;
+.header__burger__button__icon{
   width: 32px;
   height: 32px;
+  fill: #FFF;
+}
+
+.header__button__icon {
+  fill: #000;
+  width: 12px;
+  height: 12px;
 }
 
 .header__button {
@@ -57,6 +63,11 @@
     padding-top: 20px;
   }
 
+  .header__buttons__thumb{
+    display: flex;
+    gap: 32px;
+  }
+
   .header__button {
     display: flex;
     align-items: center;
@@ -69,9 +80,25 @@
     border-radius: 10px;
     background-color: #f8d24e;
     padding: 12px 36px;
-    transition: all;
+    transition: all var(--animation);
   }
+
+  .header__button:hover,
+  .header__button:focus{
+    background-color: #0A8817;
+  }
+
+  .header__button:focus{
+    color: #FFF;
+  }
+
+  .header__button:focus .header__button__icon{
+    fill: #FFF;
+  }
+
 }
+
+
 
 @media screen and (min-width: 1200px) {
   .header {
@@ -79,7 +106,7 @@
     padding-top: 8px;
     padding-bottom: 45px;
   }
-  /* .container {
+  header .container {
         display: flex;
         align-items: center;
         justify-content: space-between
@@ -94,33 +121,47 @@
     flex-shrink: 0;
   }
   .header__nav {
+    
+    display: block;
     padding-right: 28px;
   }
   .header__list {
+    justify-content: center;
+    gap: 28px;
+    display: flex;
     align-items: center;
     gap: 28px;
   }
-  .header__link {
-    color: #fcfcfc;
-    font-family: Montserrat;
+
+  .header__item{
+    color: #FCFCFC;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+  }
+
+  .header__link {
+    color: #fcfcfc;  
+    font-size: 16px;
+    font-weight: 700;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header__burger__button {
+    display: none;
   }
+
   .header__button__icon {
     width: 12px;
     height: 12px;
     flex-shrink: 0;
+    color: #000;
+    
   }
   .header__button {
     width: 152px;
     height: 42px;
     flex-shrink: 0;
     border-radius: 10px;
-    background: #f8d24e;
+    background-color: #f8d24e;
   }
 }
