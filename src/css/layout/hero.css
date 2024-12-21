@@ -38,11 +38,17 @@
   border: 2px solid #f8d24e;
   color: #000;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   font-weight: 600;
+  transition: border 350ms linear;
 }
-
+.hero__button:hover {
+  border: 2px solid #0A8817;
+}
+.hero__button:focus {
+  border: 2px solid #0A8817;
+color: #FCFCFC;
+}
 .hero__link {
   color: #f8d24e;
   text-align: center;
@@ -111,44 +117,50 @@ text-transform: uppercase;
   }
 
   .hero__links-thumb {
+    margin-bottom: 12px;
   }
   .hero__button {
   }
   .hero__link {
   }
   .hero__content-thumb {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 32px;
   }
   .hero__content-image {
+    width: 152px;
+    height: 152px;
   }
   .hero__slogan__thumb {
   }
   .hero__text {
+    width: 162px;
     color: #FFF;
     font-family: "DM Sans";
     font-size: 12px;
     font-weight: 400;
-    line-height: 140%; /* 16.8px */
+    line-height: 140%;
+    margin-bottom: 29px;
   }
   .hero__content-link {
   }
   .hero__content-link-icon {
   }
   .hero__statistics-thumb {
-    width: 36px;
-height: 34px;
-flex-shrink: 0;
-width: 46px;
-height: 10px;
-flex-shrink: 0;
-color: #FCFCFC;
+    color: #131313;
 text-align: right;
-font-family: "Montserrat", sans-serif;
-font-size: 8px;
-font-weight: 400;
+font-size: 28px;
+font-weight: 900;
+letter-spacing: 1.12px;
+text-transform: uppercase;
 }
   .hero__statistics-number {
   }
   .hero__statistics-text {
+
   }
   .hero__icecream-img {
   }
