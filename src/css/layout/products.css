@@ -1,5 +1,5 @@
 .products {
-    background-image: url('/img/products/products_mobile.png');
+    background-image: url('/src/img/icecream-background/icecream-background__mobile.png');
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -12,7 +12,7 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .products {
-        background-image: url('/img/products/products_mobile@2x.png');
+        background-image: url('/src/img/icecream-background/icecream-background__mobile@2x.png');
     }
 }
 
@@ -128,7 +128,7 @@
 @media screen and (min-width: 768px) {
 
     .products {
-        background-image: url('/img/products/products_tablet.png');
+        background-image: url('/src/img/icecream-background/icecream-background__tablet.png');
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -136,7 +136,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .products {
-            background-image: url('/img/products/products_tablet@2x.png');
+            background-image: url('/src/img/icecream-background/icecream-background__tablet@2x.png');
         }
     }
 
@@ -170,10 +170,12 @@
     }
 }
 
+/* desktop */
+
 @media screen and (min-width: 1200px) {
 
     .products {
-        background-image: url('/img/products/products_desctop.png');
+        background-image: url('/src/img/icecream-background/icecream-background__desktop.png');
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -181,7 +183,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .products {
-            background-image: url('/img/products/products_desctop@2x.png');
+            background-image: url('/src/img/icecream-background/icecream-background__desktop@2x.png');
         }
     }
 
