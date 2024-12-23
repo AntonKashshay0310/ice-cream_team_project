@@ -12,6 +12,7 @@
 
 /* LAYOUT */
 @import url("./layout/header.css");
+@import url("./layout/mobilemenu.css");
 @import url("./layout/hero.css");
 @import url("./layout/products.css");
 @import url("./layout/traditions.css");
@@ -20,6 +21,10 @@
 
 /* COMPONENTS */
 @import url("./components/buy-now-modal.css");
+@import url("./layout/infoaboutproduct.css");
+@import url("./layout/readmoremodal.css");
+@import url("./layout/ourlocationmodal.css");
+@import url("./layout/franchisemodal.css");
 
 
 :root {
