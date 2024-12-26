@@ -1,5 +1,4 @@
 .location {
-
   width: 280px;
   height: 365px;
   border-radius: 10px;
@@ -18,9 +17,6 @@
 }
 
 .location__image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 224px;
   height: 199px;
   border-radius: 10px;
@@ -40,4 +36,31 @@
   padding: 12px 34px;
   margin-top: 24px;
   margin-left: 73px;
+}
+
+@media screen and (min-width: 768px) {
+  .location {
+    width: 568px;
+    height: 458px;
+  }
+
+  .location__title {
+    font-size: 20px;
+    line-height: 28px; /* 140% */
+    margin-top: 32px;
+  }
+
+  .location__image {
+    width: 448px;
+    height: 260px;
+    margin-top: 32px;
+    margin-left: 60px;
+  }
+
+  .location__btn {
+    width: 145px;
+    font-size: 14px;
+    margin-top: 32px;
+    margin-left: 211px;
+  }
 }
