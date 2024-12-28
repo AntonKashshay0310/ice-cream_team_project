@@ -1,11 +1,34 @@
-<div class="backdrop">
+<div class="backdrop is-hidden">
     <div class="buynow">
         <h1 class="buynow__title">Buy now</h1>
         <ul class="buynow__list">
             <li class="buynow__item">
-                <img srcset="/img/ice-menu/ice-cream.png
-                /img/ice-menu/ice-coffee.png 1x, /img/ice-menu/ice-cream@2x.png 2x" src="#" alt="buynow"
+                <img srcset="/img/ice-menu/ice-cream.png 1x, /img/ice-menu/ice-cream@2x.png 2x" src="#" alt="buynow"
                     class="buynow__item-img">
-                <p class=""></p>
+                <p class="buymow__text">ice cream</p>
+            </li>
+            <li class="buynow__item">
+                <img srcset="/img/ice-menu/ice-coffee.png 1x, /img/ice-menu/ice-coffee@2x.png 2x" src="#" alt="buynow"
+                    class="buynow__item-img">
+                <p class="buymow__text">ice coffee</p>
+            </li>
+            <li class="buynow__item">
+                <img srcset="/img/ice-menu/milkshake.png 1x, /img/ice-menu/milkshake@2x.png 2x" src="#" alt="buynow"
+                    class="buynow__item-img">
+                <p class="buymow__text">milkshake</p>
+            </li>
+        </ul>
+        <form class="buynow__form">
+        <label class="buynow__label">
+            <input type="text" class="buynow__input" required placeholder="Name">
+        </label>
+        <label class="buynow__label">
+            <input type="number" class="buynow__input" required placeholder="Phone">
+        </label>
+        <label class="buynow__label">
+            <textarea class="buynow__textarea" required placeholder="Comment"></textarea>
+        </label>
+        <button class="buynow__btn" type="submit">Submit</button>
+    </form>
     </div>
 </div>
