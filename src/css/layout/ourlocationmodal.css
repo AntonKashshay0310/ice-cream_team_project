@@ -1,9 +1,16 @@
 .location {
-  width: 280px;
-  height: 365px;
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  min-width: 280px;
+  min-height: 365px;
   border-radius: 10px;
   border: 2px solid #f8d24e;
   background: #fcfcfc;
+  padding: 28px;
+  transition: transform var(--animation);
 }
 
 .location__title {
@@ -13,7 +20,6 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  margin-top: 28px;
 }
 
 .location__image {
@@ -21,7 +27,6 @@
   height: 199px;
   border-radius: 10px;
   margin-top: 20px;
-  margin-left: 28px;
 }
 
 .location__btn {
@@ -35,7 +40,7 @@
   background: #f8d24e;
   padding: 12px 34px;
   margin-top: 24px;
-  margin-left: 73px;
+  margin-left: 45px;
 }
 
 @media screen and (min-width: 768px) {
@@ -47,20 +52,20 @@
   .location__title {
     font-size: 20px;
     line-height: 28px; /* 140% */
-    margin-top: 32px;
+    margin-top: 4px;
   }
 
   .location__image {
     width: 448px;
     height: 260px;
     margin-top: 32px;
-    margin-left: 60px;
+    margin-left: 32px;
   }
 
   .location__btn {
     width: 145px;
     font-size: 14px;
     margin-top: 32px;
-    margin-left: 211px;
+    margin-left: 183px;
   }
 }
