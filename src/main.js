@@ -1,1 +1,3 @@
-import "./css/js/comment-slider"
+import "./js/comment-slider";
+import "./js/modal";
+
