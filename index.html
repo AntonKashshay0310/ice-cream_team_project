@@ -15,8 +15,8 @@
     integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   
-  <script type="module" crossorigin src="/ice-cream_team_project/assets/index-2a0de2f1.js"></script>
-  <link rel="stylesheet" href="/ice-cream_team_project/assets/index-9912621b.css">
+  <script type="module" crossorigin src="/ice-cream_team_project/assets/index-22fdb7af.js"></script>
+  <link rel="stylesheet" href="/ice-cream_team_project/assets/index-03796e98.css">
 </head>
 
 <body>
@@ -354,12 +354,12 @@
       </li>
     </ul>
     <div class="footer__buttons__thumb">
-      <button type="button" class="footer__our__location footer__button">Our Locations
+      <button type="button" class="footer__our__location footer__button" data-modal="location-modal" >Our Locations
         <svg class="footer__button__icon">
           <use href="/ice-cream_team_project/assets/symbol-defs-2f15423b.svg#icon-ep_arrow-right-bold"></use>
         </svg>
       </button>
-      <button type="button" class="footer__franchise footer__button">Franchise
+      <button type="button" class="footer__franchise footer__button" data-modal="franchise-modal" >Franchise
         <svg class="footer__button__icon">
           <use href="/ice-cream_team_project/assets/symbol-defs-2f15423b.svg#icon-ep_arrow-right-bold"></use>
         </svg>
@@ -579,8 +579,14 @@
   </div>
 </div>
   
-  <div class="backdrop is-hidden">
+  <div class="backdrop is-hidden" id="location-modal">
     <div class="location">
+        <button class="modal__button-close close-button">
+            <!-- <svg class="modal__button-close__icon">
+              <use href="/img/icons/sprite.svg#icon-modal-close-btn"></use>
+            </svg> -->
+            X
+          </button>
         <h3 class="location__title">
             Our Locations
         </h3>
@@ -590,8 +596,14 @@
         <button type="button" class="location__btn">Open map</button>
     </div>
 </div>
-  <div class="backdrop is-hidden">
+  <div class="backdrop is-hidden" id="franchise-modal">
   <div class="franchise">
+    <button class="modal__button-close close-button">
+      <!-- <svg class="modal__button-close__icon">
+        <use href="/img/icons/sprite.svg#icon-modal-close-btn"></use>
+      </svg> -->
+      X
+    </button>
     <h3 class="franchise__title">
       Thank you for your interest in owning an Ice Cream shop
     </h3>
