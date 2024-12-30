@@ -124,6 +124,24 @@
   background-color: transparent;
 }
 
+.footer__our__location:hover,
+.footer__our__location:focus {
+    background-color: #0A8817;
+}
+
+.footer__our__location:focus {
+    color: #FFF;
+}
+
+.footer__franchise:hover,
+.footer__franchise:focus {
+    border-color: #0A8817;
+}
+
+.footer__franchise:focus {
+    color: #FFF;
+}
+
 .footer__button__icon {
   width: 12px;
   height: 12px;
