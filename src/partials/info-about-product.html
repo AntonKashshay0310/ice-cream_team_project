@@ -1,11 +1,12 @@
-<div class="backdrop">
+<!-- <div class="backdrop"> -->
+<div class="backdrop is-hidden">
   <div class="products-modal">
-    <h3 class="products-modal__name">Chololate icecream</h3>
+    <h3 class="products-modal__title">Chololate icecream</h3>
     <img
       src="#"
       srcset="
-        /img/products/mini-icecream.jpg    1x,
-        /img/products/mini-icecream@2x.jpg 2x
+        /img/products/mini-icecream.png    1x,
+        /img/products/mini-icecream@2x.png 2x
       "
       alt="icecream"
       class="products-modal__icecream-img"
@@ -17,7 +18,7 @@
       </li>
       <li class="products-modal__item-name">
         <p class="products-modal__text-number">4g</p>
-        <p class="products-modal__text-name">Protein...</p>
+        <p class="products-modal__text-name">Prote...</p>
       </li>
       <li class="products-modal__item-name">
         <p class="products-modal__text-number">8,2g</p>
@@ -55,11 +56,17 @@
         <p class="products-modal__text-ingredients">10g</p>
       </li>
     </ul>
-    <form action="">
-      <input type="name" placeholder="Name" />
-      <input type="tell" placeholder="Phone"/>
-      <textarea name="" placeholder="Comment" id=""></textarea>
-      <button type="submit">Submit</button>
+    <form class="products__modal-form" action="">
+      <input class="products__modal-input" type="name" placeholder="Name" />
+      <input class="products__modal-input" type="tell" placeholder="Phone" />
+      <textarea
+        class="products__modal-comment"
+        name=""
+        placeholder="Comment"
+        id=""
+      ></textarea>
+      <button class="products__modal-button" type="submit">Submit</button>
     </form>
   </div>
+  <!-- </div> -->
 </div>
