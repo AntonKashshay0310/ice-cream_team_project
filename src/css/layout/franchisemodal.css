@@ -13,30 +13,32 @@
   transition: transform var(--animation);
 }
 .franchise__title {
-  width: 222px;
   color: #131313;
   text-align: center;
   font-family: 'Seymour One';
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  margin-top: 28px;
+  margin-bottom: 20px;
 }
-.franchise__subtitle {
+.franchise__text {
   color: #131313;
   font-size: 14px;
   font-weight: 400;
   line-height: 140%;
-  margin-top: 20px;
-  width: 222px;
+   margin-bottom: 24px;
 }
 .franchise__form {
-  margin-top: 24px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 12px;
 }
 
-.franchise__input {
+.franchise__input,
+.franchise__textarea{
   width: 224px;
-  height: 32px;
+ 
   border-radius: 10px;
   border: 1px solid #84a178;
   background: rgba(248, 210, 78, 0.1);
@@ -45,7 +47,9 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 140%; /* 16.8px */
+  padding: 8px 12px;
 }
+
 
 .franchise__button {
   width: 114px;
