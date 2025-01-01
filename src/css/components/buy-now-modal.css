@@ -15,7 +15,7 @@
 .buynow__title {
   color: #000000;
   text-align: center;
-  font-family: "Seymour One";
+  font-family: 'Seymour One';
   font-size: 16px;
   font-weight: 400;
   line-height: 24px; /* 150% */
@@ -33,10 +33,15 @@
 .buynow__item {
   position: relative;
   width: 132px;
-height: 136px;
+  height: 136px;
   border-radius: 15px;
-  border: 2px solid #96AF8C;
-  box-shadow: 0px 5.26px 19.726px 0px rgba(212, 20, 67, 0.10);
+  border: 2px solid #96af8c;
+  box-shadow: 0px 5.26px 19.726px 0px rgba(212, 20, 67, 0.1);
+  transition: background-color var(--animation);
+}
+
+.buynow__item:hover {
+  background-color: #efd478;
 }
 
 .buynow__item-img {
@@ -48,44 +53,29 @@ height: 136px;
   height: 132px;
 }
 
-.buynow__item:nth-child(1) > .buynow__item-img{
-  fill: linear-gradient(0deg, rgba(156, 190, 143, 0.70) 0%, rgba(156, 190, 143, 0.70) 100%), #D9D9D9;
-filter: drop-shadow(0px 5.26px 19.726px rgba(10, 136, 23, 0.25));
-} 
-.buynow__item:nth-child(2) > .buynow__item-img{
-  fill: linear-gradient(0deg, rgba(248, 210, 78, 0.70) 0%, rgba(248, 210, 78, 0.70) 100%), #D9D9D9;
-  filter: drop-shadow(0px 5.26px 19.726px rgba(153, 114, 23, 0.25));
-} 
-.buynow__item:nth-child(3) > .buynow__item-img{
-  fill: linear-gradient(0deg, rgba(213, 117, 63, 0.70) 0%, rgba(213, 117, 63, 0.70) 100%), #D9D9D9;
-  filter: drop-shadow(0px 5.26px 19.726px rgba(0, 0, 0, 0.25));
-} 
-
-
-.buymow__text{
+.buymow__text {
   color: #131313;
   text-align: center;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.64px;
   text-transform: uppercase;
-  padding: 96px 11px 21px ;
+  padding: 96px 11px 21px;
 }
 
 .buynow__item:nth-child(1) {
-  border: 2px solid #96AF8C;
+  border: 2px solid #96af8c;
 }
 
 .buynow__item:nth-child(2) {
-  border: 2px solid  #EFD478;
-  background-color: #EFD478;
+  border: 2px solid #efd478;
 }
 
 .buynow__item:nth-child(3) {
-  border: 2px solid #D6936D;
+  border: 2px solid #d6936d;
 }
 
-.buynow__form{
+.buynow__form {
   display: flex;
   flex-direction: column;
   gap: 19px;
@@ -95,37 +85,39 @@ filter: drop-shadow(0px 5.26px 19.726px rgba(10, 136, 23, 0.25));
 
 .buynow__label {
   color: #131313;
-font-size: 12px;
-font-weight: 400;
-line-height: 140%; /* 16.8px */
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 140%; /* 16.8px */
 }
 
-.buynow__input, .buynow__textarea {
+.buynow__input,
+.buynow__textarea {
   border-radius: 10px;
-border: 1px solid #84A178;
-background: rgba(248, 210, 78, 0.10);
-padding: 8px 12px;
+  border: 1px solid #84a178;
+  background: rgba(248, 210, 78, 0.1);
+  padding: 8px 12px;
 }
 
 .buynow__input {
   width: 224px;
-height: 32px;
+  height: 32px;
 }
 
 .buynow__textarea {
   width: 224px;
-height: 65px;
+  height: 65px;
+  resize: none;
 }
 
 .buynow__btn {
   color: #131313;
   font-family: Montserrat;
-text-align: center;
-font-size: 12px;
-background-color: #F8D24E;
-padding: 12px 34px;
-border-radius: 10px;
-margin-top: 12px;
+  text-align: center;
+  font-size: 12px;
+  background-color: #f8d24e;
+  padding: 12px 34px;
+  border-radius: 10px;
+  margin-top: 12px;
 }
 
 /* tablet-x-desktop */
@@ -142,7 +134,7 @@ margin-top: 12px;
     font-size: 20px;
     line-height: 28px; /* 140% */
   }
-  
+
   .buynow__list {
     flex-direction: row;
     justify-content: center;
@@ -150,37 +142,37 @@ margin-top: 12px;
     padding-top: 103px;
     padding-bottom: 40px;
   }
-  
+
   .buynow__item {
     width: 132px;
-  height: 135px;
+    height: 135px;
   }
 
-
-  .buynow__form{
+  .buynow__form {
     gap: 16px;
   }
-  
+
   .buynow__label {
-  font-size: 14px;
+    font-size: 14px;
   }
-  
-  .buynow__input, .buynow__textarea {
-  padding: 11px 16px;
+
+  .buynow__input,
+  .buynow__textarea {
+    padding: 11px 16px;
   }
-  
+
   .buynow__input {
     width: 368px;
     height: 42px;
   }
-  
+
   .buynow__textarea {
     width: 368px;
     height: 84px;
   }
-  
+
   .buynow__btn {
     font-size: 14px;
-  margin-top: 16px;
+    margin-top: 16px;
   }
 }

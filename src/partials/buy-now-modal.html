@@ -1,34 +1,67 @@
-<div class="backdrop is-hidden">
-    <div class="buynow">
-        <h1 class="buynow__title">Buy now</h1> 
-        <ul class="buynow__list">
-            <li class="buynow__item">
-                <img srcset="/img/ice-menu/ice-cream.png 1x, /img/ice-menu/ice-cream@2x.png 2x" src="#" alt="buynow"
-                    class="buynow__item-img">
-                <p class="buymow__text">ice cream</p>
-            </li>
-            <li class="buynow__item">
-                <img srcset="/img/ice-menu/ice-coffee.png 1x, /img/ice-menu/ice-coffee@2x.png 2x" src="#" alt="buynow"
-                    class="buynow__item-img">
-                <p class="buymow__text">ice coffee</p>
-            </li>
-            <li class="buynow__item">
-                <img srcset="/img/ice-menu/milkshake.png 1x, /img/ice-menu/milkshake@2x.png 2x" src="#" alt="buynow"
-                    class="buynow__item-img">
-                <p class="buymow__text">milkshake</p>
-            </li>
-        </ul>
-        <form class="buynow__form">
-        <label class="buynow__label">
-            <input type="text" class="buynow__input" required placeholder="Name">
-        </label>
-        <label class="buynow__label">
-            <input type="number" class="buynow__input" required placeholder="Phone">
-        </label>
-        <label class="buynow__label">
-            <textarea class="buynow__textarea" required placeholder="Comment"></textarea>
-        </label>
-        <button class="buynow__btn" type="submit">Submit</button>
+<div class="backdrop is-hidden" id="buynow__modal">
+  <div class="buynow">
+    <button class="modal__button-close close-button">
+      <svg class="modal__button-close__icon">
+        <use href="/img/icons/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+    <h2 class="buynow__title">Buy now</h2>
+    <ul class="buynow__list">
+      <li class="buynow__item">
+        <img
+          srcset="
+            /img/ice-menu/ice-cream.png    1x,
+            /img/ice-menu/ice-cream@2x.png 2x
+          "
+          src="#"
+          alt="buynow"
+          class="buynow__item-img"
+        />
+        <p class="buymow__text">ice cream</p>
+      </li>
+      <li class="buynow__item">
+        <img
+          srcset="
+            /img/ice-menu/ice-coffee.png    1x,
+            /img/ice-menu/ice-coffee@2x.png 2x
+          "
+          src="#"
+          alt="buynow"
+          class="buynow__item-img"
+        />
+        <p class="buymow__text">ice coffee</p>
+      </li>
+      <li class="buynow__item">
+        <img
+          srcset="
+            /img/ice-menu/milkshake.png    1x,
+            /img/ice-menu/milkshake@2x.png 2x
+          "
+          src="#"
+          alt="buynow"
+          class="buynow__item-img"
+        />
+        <p class="buymow__text">milkshake</p>
+      </li>
+    </ul>
+    <form class="buynow__form">
+      <label class="buynow__label">
+        <input type="text" class="buynow__input" required placeholder="Name" />
+      </label>
+      <label class="buynow__label">
+        <input
+          type="tel"
+          class="buynow__input"
+          required
+          placeholder="Phone"
+        />
+      </label>
+        <textarea
+          class="buynow__textarea"
+          required
+          placeholder="Comment"
+        ></textarea>
+      <button class="buynow__btn" type="submit">Submit</button>
     </form>
-    </div>
+  </div>
 </div>

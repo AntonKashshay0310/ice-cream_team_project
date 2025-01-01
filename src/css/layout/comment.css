@@ -1,170 +1,173 @@
 .comment {
-    background-image: url('/img/icecream-background/icecream-background__mobile.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 413px;
+  background-image: url('/img/icecream-background/icecream-background__mobile.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 413px;
 }
 
 @media (min-device-pixel-ratio: 2),
-(-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .comment {
-        background-image: url('/img/icecream-background/icecream-background__mobile@2x.png');
-    }
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .comment {
+    background-image: url('/img/icecream-background/icecream-background__mobile@2x.png');
+  }
 }
 
 .swiper {
-    position: relative;
-    top: -32px;
+  position: relative;
+  top: -32px;
 }
 
 .comment__item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .comment__img {
-    width: 280px;
-    height: 130px;
-    border-radius: 8px;
-    margin: 0 auto;
-    margin-bottom: 80px;
+  width: 280px;
+  height: 130px;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-bottom: 80px;
 }
 
 .comment__img-avatar {
-    width: 85px;
-    height: 85px;
-    border-radius: 50%;
-    margin: 0 auto;
-    margin-bottom: 32px;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 32px;
 }
 
 .comment__text {
-    width: 280px;
-    height: 256px;
-    color: #FCFCFC;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 255%;
-    border-radius: 10px;
-    background-color: #84A178;
-    padding: 35px 44px;
-    margin: 0 auto;
-    margin-bottom: 32px;}
-    
+  width: 280px;
+  height: 256px;
+  color: #fcfcfc;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 255%;
+  border-radius: 10px;
+  background-color: #84a178;
+  padding: 35px 44px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
 
 .comment__location-text {
-    color: #131313;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 186%;
+  color: #131313;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 186%;
+}
+
+.swiper .swiper-pagination-bullet {
+  background-color: #d9d9d9;
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  background-color: #84a178;
 }
 
 /* mobile 480px */
 
 @media screen and (min-width: 480px) {
-    .comment {
-        padding-bottom: 409px;
-    }
-
-
-    .comment__img {
-        width: 440px;
-        height: 204px;
-    }
+  .comment__img {
+    width: 440px;
+    height: 204px;
+  }
 }
 
 /* tablet */
 
 @media screen and (min-width: 768px) {
-    .comment {
-        background-image: url('/img/icecream-background/icecream-background__tablet.png');
-        padding-bottom: 379px;
-    }
+  .comment {
+    background-image: url('/img/icecream-background/icecream-background__tablet.png');
+    padding-bottom: 379px;
+  }
 
-    @media (min-device-pixel-ratio: 2),
+  @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .comment {
-            background-image: url('/img/icecream-background/icecream-background__tablet@2x.png');
-        }
+    .comment {
+      background-image: url('/img/icecream-background/icecream-background__tablet@2x.png');
     }
+  }
 
-    .comment__img {
-        width: 704px;
-        height: 327px;
-    }
+  .swiper {
+    position: relative;
+    top: -144px;
+  }
 
-    .comment__img-avatar {
-        width: 84px;
-        height: 84px;
-    }
+  .comment__img {
+    width: 704px;
+    height: 327px;
+    border-radius: 18px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
 
-    .comment__text {
-        width: 705px;
-        height: 138px;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 186%;
-        letter-spacing: 0.56px;
-        border-radius: 24px;
-        padding: 28px 80px;
-    }
+  .comment__text {
+    width: 705px;
+    height: 138px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 186%;
+    letter-spacing: 0.56px;
+    border-radius: 24px;
+    padding: 28px 80px;
+  }
 
-    .comment__location-text {
-        font-size: 16px;
-    }
+  .comment__location-text {
+    font-size: 16px;
+  }
 }
 
 /* desktop */
 
 @media screen and (min-width: 1200px) {
-    .comment {
-        background-image: url('/img/icecream-background/icecream-background__desktop.png');
-        padding-bottom: 228px;
-    }
+  .comment {
+    background-image: url('/img/icecream-background/icecream-background__desktop.png');
+    padding-bottom: 228px;
+  }
 
-    @media (min-device-pixel-ratio: 2),
+  @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .comment {
-            background-image: url('/img/icecream-background/icecream-background__desktop@2x.png');
-        }
+    .comment {
+      background-image: url('/img/icecream-background/icecream-background__desktop@2x.png');
     }
+  }
 
-    .comment__img {
-        width: 1013px;
-        height: 422px;
-    }
+  .swiper {
+    position: relative;
+    top: -100px;
+  }
 
-    .comment__img-avatar {
-        width: 85px;
-        height: 85px;
-    }
+  .comment__img {
+    width: 1013px;
+    height: 422px;
+    border-radius: 24px;
+    margin-bottom: 140px;
+  }
 
-    .comment__text {
-        width: 968px;
-        height: 138px;
-        font-size: 16px;
-        letter-spacing: 0.64px;
-        padding: 43px 109px;
-    }
-}
-.swiper .swiper-pagination-bullet {
-    background-color: #d9d9d9;
-    width: 12px;
-    height: 12px;
-    opacity: 1;
-}
+  .comment__img-avatar {
+    width: 85px;
+    height: 85px;
+  }
 
-.swiper .swiper-pagination-bullet-active {
-    background-color: #84A178;
+  .comment__text {
+    width: 968px;
+    height: 138px;
+    font-size: 16px;
+    letter-spacing: 0.64px;
+    padding: 43px 109px;
+  }
 }
