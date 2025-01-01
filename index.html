@@ -15,8 +15,8 @@
     integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   
-  <script type="module" crossorigin src="/ice-cream_team_project/assets/index-22fdb7af.js"></script>
-  <link rel="stylesheet" href="/ice-cream_team_project/assets/index-03796e98.css">
+  <script type="module" crossorigin src="/ice-cream_team_project/assets/index-06a5b376.js"></script>
+  <link rel="stylesheet" href="/ice-cream_team_project/assets/index-1a6c9f7b.css">
 </head>
 
 <body>
@@ -417,12 +417,16 @@
 </footer>
 
   <!-- MODAL-->
-   <div class="backdrop is-hidden">
+   
+<div class="backdrop is-hidden">
   <div class="products-modal">
-    <h3 class="products-modal__name">Chololate icecream</h3>
+    <h3 class="products-modal__title">Chololate icecream</h3>
     <img
       src="#"
-      srcset="/ice-cream_team_project/assets/mini-icecream-1163cda0.jpg 1x, /ice-cream_team_project/assets/mini-icecream@2x-c8e82e91.jpg 2x"
+      srcset="
+        /img/products/mini-icecream.png    1x,
+        /img/products/mini-icecream@2x.png 2x
+      "
       alt="icecream"
       class="products-modal__icecream-img"
     />
@@ -433,7 +437,7 @@
       </li>
       <li class="products-modal__item-name">
         <p class="products-modal__text-number">4g</p>
-        <p class="products-modal__text-name">Protein...</p>
+        <p class="products-modal__text-name">Prote...</p>
       </li>
       <li class="products-modal__item-name">
         <p class="products-modal__text-number">8,2g</p>
@@ -459,26 +463,33 @@
         <p class="products-modal__text-ingredients">150 ml</p>
       </li>
       <li class="products-modal__item-ingredients">
-        <p class="products-modal__text-ingredients">Cocoa powder 30g</p>
-        <p class="products-modal__text-ingredients">Cocoa powder 30g</p>
+        <p class="products-modal__text-ingredients">Cocoa powder</p>
+        <p class="products-modal__text-ingredients">30g</p>
       </li>
       <li class="products-modal__item-ingredients">
-        <p class="products-modal__text-ingredients">Sugar 40g</p>
-        <p class="products-modal__text-ingredients">Sugar 40g</p>
+        <p class="products-modal__text-ingredients">Sugar</p>
+        <p class="products-modal__text-ingredients">40g</p>
       </li>
       <li class="products-modal__item-ingredients">
-        <p class="products-modal__text-ingredients">Vanilla sugar 10g</p>
-        <p class="products-modal__text-ingredients">Vanilla sugar 10g</p>
+        <p class="products-modal__text-ingredients">Vanilla sugar</p>
+        <p class="products-modal__text-ingredients">10g</p>
       </li>
     </ul>
-    <form action="">
-      <input type="name" placeholder="Name" />
-      <input type="tell" placeholder="Phone"/>
-      <textarea name="" placeholder="Comment" id=""></textarea>
-      <button type="submit">Submit</button>
+    <form class="products__modal-form" action="">
+      <input class="products__modal-input" type="name" placeholder="Name" />
+      <input class="products__modal-input" type="tell" placeholder="Phone" />
+      <textarea
+        class="products__modal-comment"
+        name=""
+        placeholder="Comment"
+        id=""
+      ></textarea>
+      <button class="products__modal-button" type="submit">Submit</button>
     </form>
   </div>
 </div>
+
+
 
   <!-- COMPONENTS -->
   
@@ -516,12 +527,16 @@
     </form>
     </div>
 </div>
-  <div class="backdrop is-hidden">
+  
+<div class="backdrop is-hidden">
   <div class="products-modal">
-    <h3 class="products-modal__name">Chololate icecream</h3>
+    <h3 class="products-modal__title">Chololate icecream</h3>
     <img
       src="#"
-      srcset="/ice-cream_team_project/assets/mini-icecream-1163cda0.jpg 1x, /ice-cream_team_project/assets/mini-icecream@2x-c8e82e91.jpg 2x"
+      srcset="
+        /img/products/mini-icecream.png    1x,
+        /img/products/mini-icecream@2x.png 2x
+      "
       alt="icecream"
       class="products-modal__icecream-img"
     />
@@ -532,7 +547,7 @@
       </li>
       <li class="products-modal__item-name">
         <p class="products-modal__text-number">4g</p>
-        <p class="products-modal__text-name">Protein...</p>
+        <p class="products-modal__text-name">Prote...</p>
       </li>
       <li class="products-modal__item-name">
         <p class="products-modal__text-number">8,2g</p>
@@ -558,26 +573,33 @@
         <p class="products-modal__text-ingredients">150 ml</p>
       </li>
       <li class="products-modal__item-ingredients">
-        <p class="products-modal__text-ingredients">Cocoa powder 30g</p>
-        <p class="products-modal__text-ingredients">Cocoa powder 30g</p>
+        <p class="products-modal__text-ingredients">Cocoa powder</p>
+        <p class="products-modal__text-ingredients">30g</p>
       </li>
       <li class="products-modal__item-ingredients">
-        <p class="products-modal__text-ingredients">Sugar 40g</p>
-        <p class="products-modal__text-ingredients">Sugar 40g</p>
+        <p class="products-modal__text-ingredients">Sugar</p>
+        <p class="products-modal__text-ingredients">40g</p>
       </li>
       <li class="products-modal__item-ingredients">
-        <p class="products-modal__text-ingredients">Vanilla sugar 10g</p>
-        <p class="products-modal__text-ingredients">Vanilla sugar 10g</p>
+        <p class="products-modal__text-ingredients">Vanilla sugar</p>
+        <p class="products-modal__text-ingredients">10g</p>
       </li>
     </ul>
-    <form action="">
-      <input type="name" placeholder="Name" />
-      <input type="tell" placeholder="Phone"/>
-      <textarea name="" placeholder="Comment" id=""></textarea>
-      <button type="submit">Submit</button>
+    <form class="products__modal-form" action="">
+      <input class="products__modal-input" type="name" placeholder="Name" />
+      <input class="products__modal-input" type="tell" placeholder="Phone" />
+      <textarea
+        class="products__modal-comment"
+        name=""
+        placeholder="Comment"
+        id=""
+      ></textarea>
+      <button class="products__modal-button" type="submit">Submit</button>
     </form>
   </div>
 </div>
+
+
   
   <div class="backdrop is-hidden" id="location-modal">
     <div class="location">
