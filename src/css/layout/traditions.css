@@ -1,8 +1,7 @@
 .tradisions {
-    padding-bottom: 65px;
-    background-color: #84a178;
-}
-.container {
+  padding-top: 62px;
+  padding-bottom: 68px;
+  background-color: #84a178;
 }
 
 .tradisions__title {
@@ -11,11 +10,10 @@
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  padding-top: 61px;
   margin-bottom: 12px;
 }
 
-.tradisions__text {
+.tradisions__subtitle {
   width: 200px;
   margin: 0 auto;
   color: #fcfcfc;
@@ -27,53 +25,86 @@
   text-transform: uppercase;
   margin-bottom: 32px;
 }
+
+.traditions__content__container {
+  margin-bottom: 50px;
+}
+
 .tradisions__img {
+  width: 279px;
+  height: 278px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.tradisions__first__text {
-    width: 220px;
-    margin: 0 auto;
-    color: #FCFCFC;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 176%;
-    letter-spacing: 0.48px;
+.tradisions__contet__text {
+  width: 210px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 24px;
 }
 
-.tradisions__second__text {
-    width: 220px;
-    margin: 0 auto;
-    color: #FCFCFC;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 162%;
+.tradisions__text {
+  color: #fcfcfc;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 176%;
+  letter-spacing: 0.48px;
+}
+
+.tradisions__text:not(:last-child) {
+  margin-bottom: 4px;
 }
 
 .tradisions__button {
-    color: #000;
-    text-align: center;
-    font-size: 14px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    line-height: 128%;
-    width: 164px;
-    height: 42px;
-    border-radius: 10px;
-    background: #F8D24E;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  line-height: 128%;
+  border-radius: 10px;
+  background: #f8d24e;
+  padding: 12px 35px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  transition: all var(--animation);
 }
 
-.achievements__button__svg{
-    width: 12px;
-    height: 12px;
+.achievements__button__svg {
+  width: 12px;
+  height: 12px;
+  fill: #000;
+}
+
+.tradisions__button:hover,
+.tradisions__button:focus {
+    background-color: #0A8817;
+}
+
+.tradisions__button:focus {
+    color: #FFF;
+}
+
+.tradisions__button:focus .achievements__button__svg {
+    fill: #FFF;
+
+}
+
+.tradisions__button:disabled {
+    background-color: #ABABAB;
 }
 
 .tradisions__achievements__list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 28px;
+  gap: 32px;
 }
 
 .achievements__item {
@@ -83,235 +114,183 @@
   gap: 16px;
 }
 
+.achievements__svg__bcg {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #f8d24e;
+  padding: 7px;
+}
+
 .achievements__item__svg {
   width: 36px;
   height: 36px;
 }
 
 .achievements__item__title {
-    color: #FCFCFC;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 36px;
-    font-weight: 700;
-    letter-spacing: 1.44px;
- 
+  color: #fcfcfc;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.44px;
 }
 
-.achievements__item__text{
-    max-width: 230px;
-    color: #FCFCFC;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 170%;
+.achievements__item__text {
+  width: 230px;
+  color: #fcfcfc;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 170%;
 }
 
-.achievements__item__icon {
-  width: 36px;
-  height: 36px;
-}
+/* width 480 */
+@media screen and (min-width: 480px){
+  .tradisions{
+    padding-top: 60px;
+    padding-bottom: 81px;
+  }
 
+  .traditions__content__container{
+    margin-bottom: 60px;
+  }
+
+}
+/* width 768 */
 @media screen and (min-width: 768px) {
+  .tradisions{
+    padding-bottom: 204px;
+  }
+
   .tradisions__title {
-    color: #fcfcfc;
-    text-align: center;
     font-size: 22px;
     font-weight: 800;
     letter-spacing: 0.88px;
-    text-transform: uppercase;
   }
 
-  .tradisions__text {
-    max-width: 460px;
+  .tradisions__subtitle {
+    width:470px;
     font-size: 34px;
-    letter-spacing: 1px;
+    letter-spacing: 2.04px;
     margin-bottom: 72px;
   }
 
+  .traditions__content__container{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+  }
+
   .tradisions__img {
-    margin: 0;
-    max-width: 356px;
-    height: 356px;
-    margin-bottom: 0;
-  }
-
-  .tradisions__first__text {
-    max-width: 334px;
-    text-align: start;
+    width: 330px;
+    height: 330px;
     margin: 0;
   }
 
-  .tradisions__second__text {
-    max-width: 334px;
+  .tradisions__contet__text{
+    width: 334px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+
+  .tradisions__text {
     text-align: start;
-    line-height: 176%;
     letter-spacing: 0.48px;
-    margin: 0;
+    line-height: 176%;
+  }
+
+  .tradisions__text:not(:last-child) {
+    margin-bottom: 8px;
   }
 
   .tradisions__button {
-    color: #000;
-    text-align: center;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    line-height: 128%;
-    width: 164px;
-    height: 42px;
-    border-radius: 10px;
-    background: #f8d24e;
+    margin: 0;
   }
 
   .tradisions__achievements__list {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 28px;
-    padding-bottom: 65px;
+    justify-content: center;
+    gap: 80px;
   }
 
   .achievements__item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 0;
   }
 
-  .achievements__item__svg {
-    width: 36px;
-    height: 36px;
+  .achievements__svg__bcg {
+    margin-bottom: 32px;
   }
 
   .achievements__item__title {
-    color: #FCFCFC;
-    text-align: center;
     font-size: 48px;
-    font-weight: 700;
     letter-spacing: 1.92px;
-    text-transform: uppercase;
+    margin-bottom: 12px;
   }
 
-  .achievements__item__text{
-    color: #FCFCFC;
-    max-width: 152px;
-    text-align: center;
-    font-family: Montserrat;
+  .achievements__item__text {
+    width: 152px;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 174%
-  }
-
-  .achievements__item__icon {
-    width: 36px;
-    height: 36px;
+    line-height: 174%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .tradisions {
-    background-color: #84a178;
-  }
-  .container {
+    margin-bottom: 178px;
   }
 
-  .tradisions__title {
-    color: #FCFCFC;
-    text-align: center;
-    font-family: Montserrat;
+  .tradisions__title { 
     font-size: 30px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
     letter-spacing: 1.2px;
-    text-transform: uppercase;
   }
 
   .tradisions__text {
-    color: #FCFCFC;
-    text-align: center;
-    font-family: "Seymour One";
+    width: 490px;
     font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     letter-spacing: 2.16px;
-    text-transform: uppercase;
+    margin-bottom: 82px;
   }
-  
+
+  .traditions__content__container{
+    gap: 109px;
+  }
+
   .tradisions__img {
+ width: 490px;
+    height: 490px;
   }
 
-  .tradisions__first__text {
-    max-width: 463px;
-    font-size: 16px;
-    letter-spacing: 0.64px;
+  .tradisions__contet__text{
+    width: 463px;
+    margin-bottom: 54px;
   }
 
-  .tradisions__second__text {  
-    max-width: 463px;
+  .tradisions__text {
     font-size: 14px;
-    font-weight: 400;
     line-height: 194%;
     letter-spacing: 0.56px;
   }
 
-  .tradisions__button {
-    color: #000;
-    text-align: center;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    line-height: 128%;
-    width: 164px;
-    height: 42px;
-    border-radius: 10px;
-    background: #f8d24e;
+  .tradisions__achievements__list{ 
+    gap: 32px;
   }
 
-  .tradisions__achievements {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 28px;
-    padding-bottom: 65px;
+  .achievements__svg__bcg{
+    margin-bottom: 40px;
   }
 
-  .achievements__item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0;
-  }
-
-  .achievements__item__svg {
-    width: 36px;
-    height: 36px;
-  }
-
-  .achievements__item__title {
-    color: #FCFCFC;
-    text-align: center;
+  .achievements__item__title { 
     font-size: 58px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
     letter-spacing: 2.32px;
   }
 
-  .achievements__item__text{
-    max-width: 368px;
-
+  .achievements__item__text {
+   width: 368px;
     font-size: 16px;
-    font-weight: 400;
     line-height: 176%;
     letter-spacing: 0.32px;
   }
 
-
-  .achievements__item__icon {
-    width: 36px;
-    height: 36px;
-  }
 }

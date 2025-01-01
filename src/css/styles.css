@@ -20,7 +20,8 @@
 @import url("./layout/footer.css");
 
 /* COMPONENTS */
-@import url("./components/buy-now-modal.css");
+@import url("./components/backdrop.css");
+@import url("./layout/buy-now-modal.css");
 @import url("./layout/infoaboutproduct.css");
 @import url("./layout/readmoremodal.css");
 @import url("./layout/ourlocationmodal.css");
