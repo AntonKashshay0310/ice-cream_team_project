@@ -1,29 +1,32 @@
 :root {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-  
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-  
-    --animation: 350ms linear;
-  }
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 
-  .modal__button-close {
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --animation: 350ms linear;
+}
+
+.modal__button-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.modal__button-close__icon {
+  width: 20px;
+  height: 20px;
+  fill: #131313;
+
+  @media screen and (min-width: 768px) {
+    width: 24px;
+    height: 24px;
   }
-  
-  .modal__button-close__icon {
-    width: 20px;
-    height: 20px;
-    fill: #131313;
-  }
-  
