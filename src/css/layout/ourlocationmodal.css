@@ -13,6 +13,8 @@
   transition: transform var(--animation);
 }
 
+
+
 .location__title {
   color: #131313;
   text-align: center;
