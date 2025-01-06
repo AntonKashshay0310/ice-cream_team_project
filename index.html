@@ -15,8 +15,8 @@
     integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   
-  <script type="module" crossorigin src="/ice-cream_team_project/assets/index-06a5b376.js"></script>
-  <link rel="stylesheet" href="/ice-cream_team_project/assets/index-1a6c9f7b.css">
+  <script type="module" crossorigin src="/ice-cream_team_project/assets/index-423abbf5.js"></script>
+  <link rel="stylesheet" href="/ice-cream_team_project/assets/index-f234755b.css">
 </head>
 
 <body>
@@ -495,7 +495,7 @@
   
   <div class="backdrop is-hidden">
     <div class="buynow">
-        <h1 class="buynow__title">Buy now</h1> 
+        <h2 class="buynow__title">Buy now</h2> 
         <ul class="buynow__list">
             <li class="buynow__item">
                 <img srcset="/ice-cream_team_project/assets/ice-cream-d15c16b1.png 1x, /ice-cream_team_project/assets/ice-cream@2x-8cea4e32.png 2x" src="#" alt="buynow"
@@ -604,10 +604,9 @@
   <div class="backdrop is-hidden" id="location-modal">
     <div class="location">
         <button class="modal__button-close close-button">
-            <!-- <svg class="modal__button-close__icon">
-              <use href="/img/icons/sprite.svg#icon-modal-close-btn"></use>
-            </svg> -->
-            X
+            <svg class="modal__button-close__icon">
+              <use href="/img/icons/sprite.svg#icon-close"></use>
+            </svg>
           </button>
         <h3 class="location__title">
             Our Locations
@@ -621,15 +620,14 @@
   <div class="backdrop is-hidden" id="franchise-modal">
   <div class="franchise">
     <button class="modal__button-close close-button">
-      <!-- <svg class="modal__button-close__icon">
-        <use href="/img/icons/sprite.svg#icon-modal-close-btn"></use>
-      </svg> -->
-      X
+      <svg class="modal__button-close__icon">
+        <use href="/img/icons/sprite.svg#icon-close"></use>
+      </svg>
     </button>
     <h3 class="franchise__title">
       Thank you for your interest in owning an Ice Cream shop
     </h3>
-    <p class="franchise__subtitle">Due to the overwhelming volume of franchise requests we are not accepting new
+    <p class="franchise__text">Due to the overwhelming volume of franchise requests we are not accepting new
       franchisee applications at this time. Once the application process resumes, we will contact you for further
       information. Please fill out the contact information below and we will reach out for additional information.
       We appreciate your patience.</p>
@@ -637,9 +635,9 @@
       <input class="franchise__input" type="text" name="text" id="user__name" placeholder="Name" />
       <input class="franchise__input" type="tel" name="tel" id="user__phone" placeholder="Phone" />
       <input class="franchise__input" type="email" name="email" id="user__email" placeholder="Email" />
-      <input class="franchise__input" type="text" name="text" id="comment" placeholder="Comment" />
+      <textarea name="comment" class="franchise__textarea" type="text" placeholder="Comment" ></textarea>
+      <button type="submit" class="franchise__button">Submit</button> 
     </form>
-    <button type="submit" class="franchise__button">Submit</button>
   </div>
 </div>
   
