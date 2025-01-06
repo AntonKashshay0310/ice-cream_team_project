@@ -10,4 +10,20 @@
   
     --animation: 350ms linear;
   }
+
+  .modal__button-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+  
+  .modal__button-close__icon {
+    width: 20px;
+    height: 20px;
+    fill: #131313;
+  }
   
