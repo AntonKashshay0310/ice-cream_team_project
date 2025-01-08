@@ -125,15 +125,14 @@
   padding: 12px 34px;
   border-radius: 10px;
   margin-top: 12px;
-  transition: background-color var(--animation);
-  transition: color var(--animation);
+  transition: all var(--animation); 
 }
 .buynow__btn:hover {
 background-color: #0A8817;
 }
 .buynow__btn:focus {
 background-color: #0A8817;
-color: #FCFCFC;
+color: #FCFCFC; 
 }
 
 
