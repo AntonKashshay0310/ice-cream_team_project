@@ -40,8 +40,14 @@
   transition: background-color var(--animation);
 }
 
-.buynow__item:hover {
-  background-color: #efd478;
+.buynow__item:hover:nth-child(1) {
+  background-color: #9CBE8F;
+}
+.buynow__item:hover:nth-child(2) {
+  background-color: 	#EFD478;
+}
+.buynow__item:hover:nth-child(3) {
+  background-color: 	#D5753F;
 }
 
 .buynow__item-img {
@@ -73,6 +79,7 @@
 
 .buynow__item:nth-child(3) {
   border: 2px solid #d6936d;
+
 }
 
 .buynow__form {
@@ -118,7 +125,18 @@
   padding: 12px 34px;
   border-radius: 10px;
   margin-top: 12px;
+  transition: background-color var(--animation);
+  transition: color var(--animation);
 }
+.buynow__btn:hover {
+background-color: #0A8817;
+}
+.buynow__btn:focus {
+background-color: #0A8817;
+color: #FCFCFC;
+}
+
+
 
 /* tablet-x-desktop */
 
