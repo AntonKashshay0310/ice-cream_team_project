@@ -15,8 +15,8 @@
     integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   
-  <script type="module" crossorigin src="/ice-cream_team_project/assets/index-60c355fd.js"></script>
-  <link rel="stylesheet" href="/ice-cream_team_project/assets/index-e91d1928.css">
+  <script type="module" crossorigin src="/ice-cream_team_project/assets/index-08e72bd5.js"></script>
+  <link rel="stylesheet" href="/ice-cream_team_project/assets/index-0f5714d4.css">
 </head>
 
 <body>
@@ -60,7 +60,7 @@
       ice cream made with <span class="hero__title--sized">passion</span>
     </h1>
     <div class="hero__links-thumb">
-      <a class="hero__button" href="#">Products</a>
+      <button class="hero__button" type="button" data-modal="products-modal">Products</button>
       <a class="hero__link" href="#">How it’s made?</a>
     </div>
     <div class="hero__content-thumb">
@@ -418,14 +418,14 @@
 
   <!-- MODAL-->
    
-<div class="backdrop is-hidden">
+<div class="backdrop is-hidden" id="products-modal">
   <div class="products-modal">
     <h3 class="products-modal__title">Chololate icecream</h3>
     <!-- <img
       src="#"
       srcset="
-        /img/products/mini-icecream.png    1x,
-        /img/products/mini-icecream@2x.png 2x
+        ../img/products/mini-icecream.png    1x,
+        ../img/products/mini-icecream@2x.png 2x
       "
       alt="icecream"
       class="products-modal__icecream-img"
@@ -480,9 +480,7 @@
       <input class="products__modal-input" type="tell" placeholder="Phone" />
       <textarea
         class="products__modal-comment"
-        name=""
         placeholder="Comment"
-        id=""
       ></textarea>
       <button class="products__modal-button" type="submit">Submit</button>
     </form>
@@ -618,14 +616,14 @@
 </div>
 
   
-<div class="backdrop is-hidden">
+<div class="backdrop is-hidden" id="products-modal">
   <div class="products-modal">
     <h3 class="products-modal__title">Chololate icecream</h3>
     <!-- <img
       src="#"
       srcset="
-        /img/products/mini-icecream.png    1x,
-        /img/products/mini-icecream@2x.png 2x
+        ../img/products/mini-icecream.png    1x,
+        ../img/products/mini-icecream@2x.png 2x
       "
       alt="icecream"
       class="products-modal__icecream-img"
@@ -680,9 +678,7 @@
       <input class="products__modal-input" type="tell" placeholder="Phone" />
       <textarea
         class="products__modal-comment"
-        name=""
         placeholder="Comment"
-        id=""
       ></textarea>
       <button class="products__modal-button" type="submit">Submit</button>
     </form>
