@@ -5,7 +5,8 @@
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   width: 280px;
-  height: 968px;
+  height: 90vh;
+  overflow-y: auto;
   border-radius: 10px;
   border: 2px solid #f8d24e;
   background: #fcfcfc;
@@ -138,8 +139,6 @@
 @media screen and (min-width: 768px) {
   .products-modal {
     width: 568px;
-    height: 996px;
-    flex-shrink: 0;
   }
 
   .products-modal__list-vitamins-name {
