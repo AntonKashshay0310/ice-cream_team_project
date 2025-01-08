@@ -1,11 +1,11 @@
-.franchise {
+.franchise-modal {
   position: fixed;
   z-index: 1000;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  min-width: 280px;
-  min-height: 674px;
+  width: 280px;
+  height: 674px;
   border-radius: 10px;
   border: 2px solid #f8d24e;
   background: #fcfcfc;
@@ -71,9 +71,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .franchise {
-    min-width: 568px;
-    min-height: 668px;
+  .franchise-modal {
+    width: 568px;
+    height: 668px;
   }
   .franchise__title {
     width: 322px;
